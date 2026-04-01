@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<title>Ссылки и якоря</title>
+
+<style>
+/* Стили ссылок (первый вариант) */
+a:link {
+    color: #33ccff;
+    text-decoration: none;
+}
+a:visited {
+    color: #cecece;
+}
+a:hover {
+    color: #336666;
+}
+a:active {
+    color: #339999;
+}
+
+/* Второй вариант — стиль для меню */
+ul {
+    list-style: none;
+    padding: 0;
+}
+li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 4px 7px;
+    width: 150px;
+    background: #0076ba;
+    display: block;
+    border: 1px solid #fff;
+    font-weight: bold;
+    margin-bottom: 2px;
+}
+li a:hover {
+    background: #d36800;
+}
+</style>
+
+</head>
+<body>
+
+<!-- Якорь начала документа -->
+<a id="start"></a>
+
+<h1>Меню навигации</h1>
+<ul>
+    <li><a href="#p2">К секции p2</a></li>
+    <li><a href="#end">В конец документа</a></li>
+</ul>
+
+<h2 id="p1">Секция p1</h2>
+<p>
+<strong>Это текст в секции p1.</strong> Это текст в секции p1. Это текст в секции p1. Это текст в секции p1. Это текст в секции p1. Это текст в секции p1. Это текст в секции p1. Это текст в секции p1. Это текст в секции p1. Это текст в секции p1. Это текст в секции p1. Это текст в секции p1. Это текст в секции p1. Это текст в секции p1.
+</p>
+
+<h2 id="p2">Секция p2</h2>
+<p>
+<strong>Это текст в секции p2.</strong> Это текст в секции p2. Это текст в секции p2. Это текст в секции p2. Это текст в секции p2. Это текст в секции p2. Это текст в секции p2. Это текст в секции p2. Это текст в секции p2. Это текст в секции p2. Это текст в секции p2. Это текст в секции p2. Это текст в секции p2. Это текст в секции p2.
+</p>
+
+<ul>
+    <li><a href="#start">В начало документа</a></li>
+    <li><a href="#p1">В секцию p1</a></li>
+</ul>
+
+<!-- Якорь конца документа -->
+<a id="end"></a>
+
+</body>
+</html>
